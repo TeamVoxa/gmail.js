@@ -1,0 +1,16 @@
+{
+    "name"         : "gmail.js",
+    "version"      : "0.2.2",
+    "description"  : "gmail.js",
+    "main"         : [ "./src/gmail.js", "./gmail.min.js" ],
+    "homepage"     : "https://github.com/VoxaCode/gmail.js",
+    "dependencies" : {
+        "jquery" : ">= 1.7.x"
+    },
+    "keywords"     : [
+        "gmail"
+    ],
+    "author" : {
+        "name" : "Kartik Talwar",
+    }
+}
