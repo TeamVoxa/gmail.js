@@ -429,6 +429,10 @@ var Gmail =  function() {
 
 
   api.tools.deparam = function (params, coerce) {
+    // do nothing when file body
+    if(params instanceof File){
+      return {};
+    }
 
     var each = function (arr, fnc) {
       var data = [];
@@ -723,7 +727,11 @@ var Gmail =  function() {
         var out = this._gjs_send.apply(this, arguments);
         if (this.xhrParams) {
           this.xhrParams.body = body;
-          api.tools.parse_requests(this.xhrParams);
+          try{
+            api.tools.parse_requests(this.xhrParams);
+          }catch(e){
+            console.log(e)
+          }
         }
 
         return out;
