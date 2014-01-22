@@ -1,0 +1,17 @@
+{
+  "name": "gmail-monitor",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Gmail Monitor",
+  "keywords": ["voxa", "gmail"],
+  "author": "Chris Halaschek <chris.halaschek@voxa.com>",
+  "contributors": [
+    { 
+      "name": "Chris Halaschek",
+      "email": "chris.halaschek@voxa.com"
+    }
+  ],
+ "devDependencies": {
+    "uglify-js" : "1.3.4"
+  }
+}
