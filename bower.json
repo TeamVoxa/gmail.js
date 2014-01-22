@@ -1,6 +1,6 @@
 {
     "name"         : "gmail.js",
-    "version"      : "0.2.2",
+    "version"      : "0.2.3",
     "description"  : "gmail.js",
     "main"         : [ "./src/gmail.js", "./dist/gmail.min.js" ],
     "homepage"     : "https://github.com/VoxaCode/gmail.js",
