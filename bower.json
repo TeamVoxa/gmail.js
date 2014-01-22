@@ -1,7 +1,7 @@
 {
-    "name"         : "gmail.js",
+    "name"         : "gmail-monitor",
     "version"      : "0.2.3",
-    "description"  : "gmail.js",
+    "description"  : "gmail-monitor",
     "main"         : [ "./src/gmail.js", "./dist/gmail.min.js" ],
     "homepage"     : "https://github.com/VoxaCode/gmail.js",
     "dependencies" : {
