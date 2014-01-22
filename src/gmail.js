@@ -10,7 +10,7 @@ var Gmail =  function() {
             };
 
 
-  api.version           = "0.2.2";
+  api.version           = "0.2.3";
   api.tracker.globals   = GLOBALS;
   api.tracker.view_data = VIEW_DATA;
   api.tracker.ik        = api.tracker.globals[9];
